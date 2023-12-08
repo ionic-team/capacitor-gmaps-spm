@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "capacitor-gmaps-sdk",
+    name: "capacitor-gmaps-spm",
     products: [
         .library(
             name: "GoogleMaps",
