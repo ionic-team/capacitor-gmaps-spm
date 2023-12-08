@@ -19,6 +19,10 @@ let package = Package(
         .library(
             name: "GoogleMapsCore",
             targets: ["GoogleMapsCore"]
+        ),
+        .library(
+            name: "GoogleMapsUtils",
+            targets: ["GoogleMapsUtils"]
         )
     ],
     dependencies: [],
@@ -37,7 +41,7 @@ let package = Package(
             name: "GoogleMapsCore",
             url: "https://github.com/ionic-team/capacitor-gmaps-spm/releases/download/8.3.1/GoogleMapsCore.xcframework.zip",
             checksum: "31d11bdb0b12bac2bf33e3416c15bd09258a4e193fd8a5ceb452bad281c66626"
-        )
+        ),
         .binaryTarget(
             name: "GoogleMapsUtils",
             url: "https://github.com/ionic-team/capacitor-gmaps-spm/releases/download/8.3.1/GoogleMapsUtils.xcframework.zip",
